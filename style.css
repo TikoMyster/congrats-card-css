@@ -4,6 +4,7 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+
 section {
   position: relative;
   width: 100%;
@@ -22,13 +23,14 @@ section .row {
   white-space: nowrap;
   font-size: 64px;
   transform: rotate(-30deg);
+  
 }
 i {
   color: rgb(0, 0, 0, 0.5);
   transition: 1s;
   padding: 0 5px;
   user-select: none;
-  cursor: default;
+  cursor: pointer;
 }
 i:hover{
   transition: 0s;
