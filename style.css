@@ -43,6 +43,7 @@ header h4 {
   display: inline-block;
   bottom: 20px;
   opacity: 0;
+  
 }
 
 .logo.active{
@@ -171,6 +172,21 @@ body {
   border-radius: 50%;
   right: 347px;
 }
+.uw {
+  display: flex;
+  width: 200px;
+  margin-top: 65px;
+  position: relative;
+  right: -23px;
+}
+.sl_gif {
+  display: flex;
+  width: 150px;
+  margin-top: 85px;
+  position: relative;
+  left: -295px;
+  border-radius: 5px;
+}
 .card {
   position: absolute;
   height: 300px;
@@ -190,9 +206,10 @@ body {
   position: absolute;
   width: 300px;
   filter: drop-shadow(0 0 20px rgba(26, 0, 68, 0.34));
-  bottom: 0;
+  bottom: 50px;
   left: 120px;
   transition: 0.5s;
+  opacity: 0.7;
 }
 .text-container {
   position: absolute;

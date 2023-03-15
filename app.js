@@ -19,10 +19,10 @@ window.addEventListener("DOMContentLoaded", () => {
                     span.classList.add("fade");
                 }, (idx + 1) * 100)
             })
-        }, 4000);
+        }, 5000);
 
         setTimeout(() => {
             intro.style.top = "-100vh";
-        }, 4600)
+        }, 6500)
     })
 })
